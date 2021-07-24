@@ -1,3 +1,6 @@
+#cost:: is n (len) + n * logn (sort) + n (check all chars), being n the total number of chars of both word
+# in case the word have dfferent lenght (false) the cost is n.
+
 def is_anagram():
     word1 = input("Enter the first word: ")
     word2 = input("Enter the second word: ")
@@ -11,5 +14,5 @@ def is_anagram():
 
     return True
 
-def main():
-    print(is_anagram())
+
+print(is_anagram())
